@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "noOverflow": true,
+      "singleColumn": true,
+      "compact": true,
+      "rounded": true,
+      "logoLoaded": true,
+      "links": true,
+      "targetsSafe": true,
+      "touchTargets": true
+    },
+    {
+      "width": 768,
+      "noOverflow": true,
+      "singleColumn": true,
+      "compact": true,
+      "rounded": true,
+      "logoLoaded": true,
+      "links": true,
+      "targetsSafe": true,
+      "touchTargets": true
+    },
+    {
+      "width": 390,
+      "noOverflow": true,
+      "singleColumn": true,
+      "compact": true,
+      "rounded": true,
+      "logoLoaded": true,
+      "links": true,
+      "targetsSafe": true,
+      "touchTargets": true
+    },
+    {
+      "width": 320,
+      "noOverflow": true,
+      "singleColumn": true,
+      "compact": true,
+      "rounded": true,
+      "logoLoaded": true,
+      "links": true,
+      "targetsSafe": true,
+      "touchTargets": true
+    },
+    {
+      "name": "copy-address",
+      "pass": true
+    },
+    {
+      "name": "copy-fallback",
+      "pass": true
+    },
+    {
+      "name": "google-review-entry",
+      "pass": true
+    },
+    {
+      "name": "team-link",
+      "pass": true
+    },
+    {
+      "name": "blog-link",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

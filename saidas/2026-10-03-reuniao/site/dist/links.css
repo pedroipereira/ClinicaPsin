@@ -1,0 +1,46 @@
+:root{--ink:#4f4d4e;--muted:#716d70;--line:#e2dce0;--rose:#f9edf2}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--ink);font:14px/1.6 Arial,Helvetica,sans-serif;background:radial-gradient(ellipse at 10% 15%,#e9f1f8 0,transparent 55%),radial-gradient(ellipse at 95% 70%,#f9edf2 0,transparent 55%),#faf9fa}
+a{color:inherit;-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible{outline:2px solid #427da3;outline-offset:5px}
+.link-page{width:min(100%,528px);margin:auto;padding:36px 24px 30px}
+.link-profile{text-align:center}
+.link-logo{display:grid;place-items:center;width:96px;height:96px;margin:0 auto 18px;border-radius:50%;background:#fff;border:1px solid #e6e0e4}
+.link-logo img{display:block;width:78px;height:78px;object-fit:contain;border-radius:50%}
+.link-eyebrow{font-size:10px;letter-spacing:2.2px;font-weight:600;margin:0 0 10px}
+h1{font:400 40px/1.15 Georgia,serif;letter-spacing:-1.4px;margin:0 0 10px}
+.link-intro{color:var(--muted);font-size:15px;line-height:1.55;margin:0}
+.link-modality{display:inline-flex;align-items:center;gap:8px;font-size:12px;margin:13px 0 0;color:var(--muted)}
+.link-modality>span{width:4px;height:4px;background:#ce90aa;border-radius:50%}
+.link-list{display:grid;grid-template-columns:minmax(0,1fr);grid-auto-rows:1fr;gap:12px;margin-top:26px}
+.link-card{display:flex;align-items:center;gap:14px;width:100%;min-height:72px;padding:13px 22px;border:1px solid var(--line);border-radius:36px;background:#ffffffc9;text-decoration:none;box-shadow:0 2px 8px #50404b03;transition:background .3s,border-color .3s,transform .3s,box-shadow .3s}
+.link-card:hover,.link-card:focus-visible{background:var(--rose);border-color:#d9b9c8;box-shadow:0 4px 14px #50404b07}
+.link-card:active{background:#f5e5ed;transform:scale(.99)}
+.link-card.primary{background:#575156;border-color:#575156;color:white}
+.link-card.primary:hover,.link-card.primary:focus-visible{background:#484348;border-color:#484348}
+.link-card.primary:active{background:#484348}
+.link-icon{width:24px;flex:0 0 24px;display:grid;place-items:center;color:#93838c}
+.link-card.primary .link-icon{color:#fff}
+.link-icon svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+.link-icon svg.brand-icon{width:21px;height:21px;fill:currentColor;stroke:none}
+.link-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:2px}
+.link-copy strong{font-size:14px;line-height:1.4;font-weight:600}
+.link-copy>span{font-size:12px;line-height:1.5;color:var(--muted)}
+.primary .link-copy>span{color:#efedef}
+.link-arrow{width:13px;height:13px;flex:0 0 13px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;opacity:.6;transition:transform .3s}
+.link-google{background:#fff9fc;border-color:#e7dce2}
+.link-footer{text-align:center;padding-top:26px}
+.contact-socials{display:flex;justify-content:center;gap:12px;margin-bottom:14px}
+.contact-socials a{display:grid;place-items:center;width:44px;height:44px;border:1px solid #ded7db;background:#ffffff70;border-radius:50%;transition:background .3s,border-color .3s}
+.contact-socials a:hover{background:#fff;border-color:#cbb9c3}
+.contact-socials svg{width:19px;height:19px;fill:currentColor}
+.link-phone{display:inline-flex;align-items:center;min-height:44px;font-size:12px;text-decoration:none;padding:8px;color:var(--muted)}
+.link-phone:hover,.link-home:hover{text-decoration:underline;text-underline-offset:4px}
+.link-footer address{font-size:12px;font-style:normal;line-height:1.75;color:var(--muted);margin:10px 0 2px}
+.link-home{font:400 18px/1.4 Georgia,serif;text-decoration:none}
+.copy-address{min-height:44px;padding:10px 16px;font:inherit;font-size:12px;color:var(--muted);border:0;border-radius:22px;background:none;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.copy-address:hover{color:var(--ink)}
+.copy-status{font-size:12px;line-height:1.5;min-height:18px;margin:0 0 16px;color:var(--muted)}
+@media(hover:hover){.link-card:hover{transform:translateY(-1px)}.link-card:hover .link-arrow{transform:translateX(2px)}}
+@media(max-width:380px){.link-page{padding:28px 18px}.link-card{padding:13px 17px;gap:11px}.link-icon{width:21px;flex-basis:21px}.link-eyebrow{letter-spacing:1.7px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;transform:none!important}}

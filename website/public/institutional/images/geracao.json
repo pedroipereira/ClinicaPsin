@@ -1,0 +1,13 @@
+{
+  "mode": "built-in image_gen",
+  "images": [
+    {
+      "file": "sala-exemplo.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: example photography for psychology clinic website hero. Generate a single landscape editorial photograph of a fictional calm Brazilian psychology consulting room, empty, with two comfortable armchairs, one soft dusty blue and one neutral linen, light wood furniture, a small plant, subtle blush pink accent, daylight through sheer curtains, elegant but accessible ordinary clinic, natural realistic textures, warm welcoming light. No people, no text, no logos, no watermark. This is an illustrative fictional environment, not an existing clinic. Landscape composition with furnishings clearly visible."
+    },
+    {
+      "file": "recepcao-exemplo.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: illustrative reception photo for psychology clinic website. Single landscape photograph of a fictional small Brazilian psychology clinic reception, empty with no people: light oak reception desk, comfortable waiting chairs with pale blue upholstery, a subtle blush cushion, off-white walls, one green indoor plant, soft natural daylight, modest refined interior, realistic materials, welcoming calm atmosphere. No text, no signs, no logos, no watermark. Not a real clinic. Entire reception composition, no collage."
+    }
+  ]
+}

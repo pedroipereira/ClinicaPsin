@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "slides": [
+    {
+      "id": "slide-01",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    },
+    {
+      "id": "slide-02",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    },
+    {
+      "id": "slide-03",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    },
+    {
+      "id": "slide-04",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    },
+    {
+      "id": "slide-05",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    },
+    {
+      "id": "slide-06",
+      "width": 1080,
+      "height": 1350,
+      "issues": [],
+      "imagesLoaded": true
+    }
+  ]
+}

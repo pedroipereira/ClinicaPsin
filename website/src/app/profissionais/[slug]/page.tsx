@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { SiteFooter,SiteHeader } from "@/components/institutional/site-chrome";
+import { professionals } from "@/lib/institutional-content";
+import "../../institutional.css";
+
+export function generateStaticParams(){return professionals.map(({slug})=>({slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const person=professionals.find(item=>item.slug===slug);return person?{title:person.name,description:person.summary}:{title:"Profissional"}}
+export default async function ProfessionalProfile({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const person=professionals.find(item=>item.slug===slug);if(!person)notFound();return <div className="inner-page"><SiteHeader/><main id="conteudo"><div className="wrap"><section className="section profile-page"><Link className="back-link" href="/#equipe">Voltar aos profissionais</Link><div className="profile-layout"><aside className="profile-aside"><div className={`portrait ${person.tone}`} aria-hidden="true"><span>{person.initials}</span></div></aside><div className="profile-content"><span className="eyebrow">TRAJETÓRIA E CUIDADO</span><h1>{person.name}</h1><p className="profile-role">{person.role}</p><p className="profile-approach"><span>Abordagem de trabalho</span><strong>{person.approach}</strong></p><p className="profile-lead">{person.summary}</p><p className="profile-description">{person.description}</p><div className="profile-note"><h2>O início do acompanhamento</h2><p>O primeiro encontro é um momento para conhecer sua história e conversar sobre o que motivou a busca por cuidado. Os próximos encontros são combinados com o profissional, respeitando as necessidades de cada pessoa.</p><p>As modalidades e os horários disponíveis aparecem diretamente no agendamento.</p></div><Link className="btn pink" href="/agendamento">Ver horários disponíveis</Link></div></div></section></div></main><SiteFooter/></div>}

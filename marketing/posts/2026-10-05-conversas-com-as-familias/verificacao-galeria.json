@@ -1,0 +1,32 @@
+[
+  {
+    "width": 1440,
+    "noOverflow": true,
+    "images": true,
+    "caption": true
+  },
+  {
+    "width": 390,
+    "noOverflow": true,
+    "images": true,
+    "caption": true
+  },
+  {
+    "width": 320,
+    "noOverflow": true,
+    "images": true,
+    "caption": true
+  },
+  {
+    "post": "04-filmes-e-conversas",
+    "approvedCopyPreserved": true
+  },
+  {
+    "post": "05-frustracao-na-infancia",
+    "approvedCopyPreserved": true
+  },
+  {
+    "post": "06-dialogo-com-adolescentes",
+    "approvedCopyPreserved": true
+  }
+]

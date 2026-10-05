@@ -1,0 +1,30 @@
+[
+  {
+    "name": "floating-whatsapp",
+    "pass": true
+  },
+  {
+    "name": "navigation-seven-links",
+    "pass": true
+  },
+  {
+    "name": "map-accessible",
+    "pass": true
+  },
+  {
+    "name": "pink-stronger",
+    "pass": true
+  },
+  {
+    "name": "portrait-static",
+    "pass": true
+  },
+  {
+    "name": "portrait-scrolls-normally",
+    "pass": true
+  },
+  {
+    "name": "no-mobile-overflow",
+    "pass": true
+  }
+]

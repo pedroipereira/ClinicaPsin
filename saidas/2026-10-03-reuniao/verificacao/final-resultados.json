@@ -1,0 +1,335 @@
+[
+  {
+    "width": 1440,
+    "file": "index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "check": "card-alignment",
+    "pass": true,
+    "positions": [
+      -2792,
+      -2792,
+      -2792,
+      -2792
+    ]
+  },
+  {
+    "check": "gallery-full-images",
+    "pass": true
+  },
+  {
+    "check": "faq",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "file": "profissionais/allice.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "profissionais/emanuele.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "profissionais/sandson.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "profissionais/suely.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "blog/alimentacao-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "blog/ferias-e-terapia.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "blog/filmes-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "file": "blog/index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "profissionais/allice.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "profissionais/emanuele.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "profissionais/sandson.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "profissionais/suely.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "blog/alimentacao-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "blog/ferias-e-terapia.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "blog/filmes-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "file": "blog/index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "profissionais/allice.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "profissionais/emanuele.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "profissionais/sandson.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "profissionais/suely.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "blog/alimentacao-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "blog/ferias-e-terapia.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "blog/filmes-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 760,
+    "file": "blog/index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "profissionais/allice.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "profissionais/emanuele.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "profissionais/sandson.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "profissionais/suely.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "blog/alimentacao-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "blog/ferias-e-terapia.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "blog/filmes-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "file": "blog/index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "profissionais/allice.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "profissionais/emanuele.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "profissionais/sandson.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "profissionais/suely.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "blog/alimentacao-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "blog/ferias-e-terapia.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "blog/filmes-emocoes.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "file": "blog/index.html",
+    "overflow": false,
+    "brokenImages": [],
+    "errors": []
+  }
+]

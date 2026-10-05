@@ -4,8 +4,8 @@ Sua empresa roda em cima desse arquivo. Aqui ficam as regras de operação
 do MazyOS — como o Claude lê o contexto, aprende com correções, mantém
 tudo atualizado e cria skills novas conforme a operação evolui.
 
-Esse arquivo é editável. Quando o `/instalar` rodar, ele complementa o
-final dessa página com as regras específicas do seu negócio.
+Esse arquivo é editável. O `/instalar` complementou o
+final dessa página com as regras específicas da Psin Clínica.
 
 ---
 
@@ -113,3 +113,70 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+# Psin Clínica — MazyOS
+
+## O que é esse workspace
+
+Operação digital da Psin Clínica, uma clínica de psicologia em Taguatinga Sul (DF).
+O foco atual é revisar e preparar para publicação a presença digital já implementada localmente: website, página de links e conteúdo para Instagram.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a clínica, como falamos, foco atual
+- `identidade/` — marca aplicada em tudo que o sistema gera
+- `marketing/` — posts, carrosséis, calendário de conteúdo, campanhas
+- `saidas/` — entregas pontuais; `2026-10-03-reuniao/` reúne website, página de links, roteiros e verificações
+- `scripts/site/` — geradores do website e dos carrosséis
+- `backups/` — snapshots locais com manifesto de integridade
+- `dados/` — arquivos a analisar e referências de conteúdo/estrutura
+- `../*.docx` — pesquisas de identidade e plano de implementação (3/out/2026)
+
+## Sobre a empresa
+
+A Psin Clínica é uma clínica de psicologia e psicanálise. Atende crianças,
+adolescentes e adultos, presencial e online. Público prioritário, equipe
+ativa e frase de oferta estão **pendentes** (ver `_memoria/empresa.md`).
+
+## Setores e responsáveis
+
+- **Marketing / conteúdo:** *a definir*. Prioridade atual: montagem de posts
+- **Clínico:** responsável técnica Allice Gracyelli de Melo (CRP 01/15635). Valida conteúdo clínico e publicidade
+- **Recepção / atendimento:** *a definir*
+
+## O que mais fazemos aqui
+
+- Posts e carrosséis para o Instagram
+- Padronização dos canais (bio, Google, Doctoralia, Linktree)
+- Textos para o site institucional
+
+## Tom de voz
+
+Claro e direto com o cliente final, com base acolhedora. Detalhes em `_memoria/preferencias.md`.
+
+Evitar: prometer resultado, "método exclusivo da Psin", atribuir técnicas ou
+títulos sem aprovação do profissional, expor relato clínico.
+
+## Regras do sistema
+
+- Posts e carrosséis ficam em `marketing/posts/AAAA-MM-DD-tema/`
+- Todo conteúdo com tema clínico sai marcado como "para validar com a responsável técnica" (normas do CFP)
+- Abordagem terapêutica é apresentada por profissional, nunca como método da clínica
+- Enquanto as pendências de `_memoria/` não forem resolvidas, não inventar público, serviço ou equipe. Perguntar.
+
+## Ferramentas conectadas
+
+- [ ] Instagram / Meta
+- [ ] Google Perfil da Empresa
+- [ ] Canva
+- [ ] Google Calendar
+- [ ] WhatsApp
+
+*(Marcar conforme for instalando os MCPs)*
+
+## Manutenção das entregas locais
+
+- Website: `saidas/2026-10-03-reuniao/site/dist/`. O gerador do conteúdo é `scripts/site/revisar_apresentacao.py`; estilos e interações também possuem arquivos próprios no `dist`. Verificar o gerador antes de editar somente um HTML gerado, para evitar perda de mudanças na próxima execução.
+- Carrosséis: `scripts/site/gerar_carrosseis_estreia.py` e `scripts/site/gerar_carrosseis_educativos.py`; cada entrega contém HTML, PNGs, legendas, textos alternativos, galeria e scripts de renderização.
+- Registrar separadamente aprovação dos textos, aprovação das artes, validação clínica e publicação. A existência de arquivos ou links para redes sociais não comprova publicação ou integração com essas plataformas.

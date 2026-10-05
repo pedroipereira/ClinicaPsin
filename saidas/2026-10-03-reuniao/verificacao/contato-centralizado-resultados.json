@@ -1,0 +1,50 @@
+[
+  {
+    "width": 1440,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  },
+  {
+    "width": 1024,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  },
+  {
+    "width": 900,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  },
+  {
+    "width": 760,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  },
+  {
+    "width": 390,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  },
+  {
+    "width": 320,
+    "noOverflow": true,
+    "buttonAbove": true,
+    "centered": true,
+    "uniformTitles": true,
+    "addressLines": true
+  }
+]
