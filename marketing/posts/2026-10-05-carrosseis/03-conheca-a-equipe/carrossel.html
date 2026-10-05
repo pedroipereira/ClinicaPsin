@@ -1,0 +1,137 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Conheça a equipe — Psin Clínica</title><link rel="stylesheet" href="../assets/fonts/fonts.css"><style>
+:root{
+  --ink:#3A3638; --muted:#6E6669; --rose:#E0628F; --rose-text:#C2477A; --rose-soft:#FBE4EC;
+  --blue:#94C0E6; --blue-text:#3E6F96; --blue-soft:#E5EFF8; --deep:#24435C; --cream:#FBF8F5;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#d9d4d6;font-family:Inter,Arial,sans-serif;color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:40px;padding:40px 0}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;padding:72px 90px 64px;background:#fff}
+.slide.branco{background:#fff}
+.slide.azul{background:var(--blue-soft)}
+.slide.rosa{background:var(--rose-soft)}
+.slide.creme{background:var(--cream)}
+.slide.profundo{background:var(--deep);color:#fff}
+.slide.destaque{background:var(--rose);color:#fff}
+
+/* topo e rodapé */
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:3}
+.brand{display:flex;align-items:center;gap:16px;font:600 22px/1 Inter,sans-serif;letter-spacing:.01em}
+.brand .chip{width:64px;height:64px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(36,67,92,.10)}
+.brand img{width:52px;height:52px;object-fit:contain}
+.count{font:600 20px/1 Inter,sans-serif;letter-spacing:.18em;color:var(--muted)}
+.profundo .count,.destaque .count,.photo-cover .count{color:rgba(255,255,255,.75)}
+.bottom{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:26px;border-top:1.5px solid rgba(58,54,56,.14);font:600 20px/1 Inter,sans-serif;color:var(--muted);position:relative;z-index:3}
+.profundo .bottom,.destaque .bottom,.photo-cover .bottom{border-color:rgba(255,255,255,.28);color:rgba(255,255,255,.85)}
+.bottom .swipe{letter-spacing:.16em;text-transform:uppercase;font-size:17px}
+
+/* tipografia */
+.kicker{font:700 20px/1.2 Inter,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--rose-text)}
+.azul .kicker{color:var(--blue-text)}
+.profundo .kicker,.destaque .kicker,.photo-cover .kicker{color:#F6B9CF}
+.rule{width:84px;height:5px;border-radius:3px;background:var(--rose)}
+.azul .rule{background:var(--blue-text)}
+h1,h2{font-family:Fraunces,Georgia,serif;font-weight:500;letter-spacing:-.012em;font-variation-settings:"opsz" 60,"SOFT" 50}
+h1{letter-spacing:-.008em;font-variation-settings:"opsz" 96,"SOFT" 50}
+h1{font-size:116px;line-height:1.0}
+h2{font-size:88px;line-height:1.04}
+p.body{font:400 40px/1.45 Inter,sans-serif;color:#4C4749;max-width:880px}
+.profundo p.body,.destaque p.body{color:rgba(255,255,255,.9)}
+em.hl{font-style:normal;color:var(--rose-text)}
+
+.main{flex:1;display:flex;flex-direction:column;justify-content:center;gap:34px;position:relative;z-index:2}
+
+/* tags */
+.tags{display:flex;flex-wrap:wrap;gap:16px}
+.tags span{font:600 26px/1 Inter,sans-serif;padding:18px 30px;border-radius:999px;background:var(--rose-soft);color:var(--rose-text)}
+.rosa .tags span{background:#fff}
+
+/* capa com foto */
+.photo-cover{color:#fff}
+.photo-cover .bg{position:absolute;inset:0;background-size:cover;z-index:0}
+.photo-cover:after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(28,38,48,.30) 0%,rgba(28,38,48,.08) 30%,rgba(28,38,48,.55) 58%,rgba(24,34,44,.92) 100%)}
+.photo-cover .main{justify-content:flex-end;padding-bottom:20px}
+.photo-cover h1{font-size:104px;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.photo-cover p.body{color:rgba(255,255,255,.92);font-size:36px}
+
+/* espaço para imagem a inserir */
+.placeholder{position:relative;border:4px dashed #B9A9B1;border-radius:28px;background:repeating-linear-gradient(-45deg,#F3ECEF 0 22px,#ECE3E8 22px 44px);display:flex;flex-direction:column;justify-content:center;gap:16px;padding:40px 48px;color:#5B5357}
+.placeholder b{font:800 22px/1.2 Inter,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--rose-text)}
+.placeholder span{font:500 25px/1.42 Inter,sans-serif}
+.photo-cover .placeholder.full{position:absolute;inset:0;border-radius:0;border:none;justify-content:flex-start;padding:200px 90px 0;background:repeating-linear-gradient(-45deg,#9DB7CC 0 26px,#93AFC6 26px 52px)}
+.photo-cover .placeholder.full .ph-box{border:4px dashed rgba(255,255,255,.85);border-radius:28px;padding:34px 40px;background:rgba(36,67,92,.55);display:flex;flex-direction:column;gap:14px;color:#fff}
+.photo-cover .placeholder.full b{color:#FFD3E2}
+.photo-cover .placeholder.full span{font-size:25px;color:#fff}
+
+/* capa de cor */
+.cover-color h1{font-size:118px}
+.cover-color .main{justify-content:center}
+.cover-color .deco{position:absolute;right:-180px;bottom:-200px;width:680px;height:680px;border-radius:50%;z-index:1}
+.profundo .deco{background:radial-gradient(circle at 35% 35%,rgba(148,192,230,.35),rgba(148,192,230,0) 70%)}
+.rosa .deco{background:radial-gradient(circle at 35% 35%,rgba(224,98,143,.22),rgba(224,98,143,0) 70%)}
+.azul .deco{background:radial-gradient(circle at 35% 35%,rgba(62,111,150,.20),rgba(62,111,150,0) 70%)}
+
+/* número */
+.num{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:260px;line-height:.82;letter-spacing:-.04em;color:var(--rose)}
+.azul .num{color:var(--blue-text)}
+.profundo .num{color:#F6B9CF;font-size:230px}
+.num-row{display:flex;align-items:flex-end;gap:28px}
+.num-row .kicker{padding-bottom:22px}
+
+/* citação */
+.quote-mark{font-family:Fraunces,Georgia,serif;font-size:300px;line-height:.6;height:110px;margin-top:70px;color:var(--rose);opacity:.85}
+.azul .quote-mark{color:var(--blue-text)}
+.profundo .quote-mark{color:#F6B9CF}
+.citacao h2{font-size:92px;font-style:italic;font-weight:400}
+.citacao .main{gap:30px}
+
+/* foto dividida */
+.split{padding:0}
+.split .ph{height:600px;flex-shrink:0;position:relative;background-size:cover}
+.split .ph .placeholder{position:absolute;inset:0;border-radius:0;border:none;border-bottom:4px dashed #B9A9B1;padding:150px 90px 40px}
+.split .top{position:absolute;left:90px;right:90px;top:72px}
+.split .ph .count{color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.split .ph.empty .count{color:var(--muted);text-shadow:none}
+.split .text{flex:1;display:flex;flex-direction:column;padding:56px 90px 64px}
+.split .main{justify-content:flex-start;gap:26px}
+.split h2{font-size:76px}
+.split p.body{font-size:36px}
+.split .numtag{font-family:Fraunces,Georgia,serif;font-size:96px;line-height:.8;color:var(--rose)}
+
+/* lista */
+.list{display:flex;flex-direction:column;gap:22px;margin-top:10px}
+.list div{display:flex;align-items:center;gap:30px;background:var(--rose-soft);border-radius:28px;padding:30px 36px;font:500 36px/1.3 Inter,sans-serif}
+.list div:nth-child(2){background:var(--blue-soft)}
+.list i{font-style:normal;font-family:Fraunces,Georgia,serif;font-size:64px;line-height:1;color:var(--rose);min-width:52px}
+.list div:nth-child(2) i{color:var(--blue-text)}
+
+/* perfil */
+.perfil .main{justify-content:center;gap:28px}
+.portrait{width:300px;height:300px;border-radius:50%;position:relative;overflow:hidden;flex-shrink:0}
+.portrait .placeholder{position:absolute;inset:0;border-radius:50%;padding:40px 46px;text-align:center;align-items:center;gap:8px}
+.portrait .placeholder b{font-size:17px}
+.portrait .placeholder span{font-size:19px;line-height:1.3}
+.portrait .initials{position:absolute;right:-6px;bottom:-6px}
+.perfil h2{font-size:80px}
+.credential{font:600 26px/1.3 Inter,sans-serif;color:var(--rose-text);letter-spacing:.02em}
+.azul .credential{color:var(--blue-text)}
+.perfil .ghost{position:absolute;right:70px;bottom:120px;font-family:Fraunces,Georgia,serif;font-size:260px;line-height:1;color:rgba(58,54,56,.05);z-index:1}
+
+/* CTA */
+.cta{background:var(--rose);color:#fff;text-align:center}
+.cta .main{align-items:center;justify-content:center;gap:34px}
+.cta .logo-big{width:150px;height:150px;border-radius:40px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(120,30,70,.18)}
+.cta .logo-big img{width:120px;height:120px;object-fit:contain}
+.cta h2{font-size:92px;max-width:880px}
+.cta p.body{color:#fff;max-width:840px;font-size:38px}
+.cta .button{font:700 26px/1 Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;background:#fff;color:var(--rose-text);padding:26px 46px;border-radius:999px}
+.cta .note{font:500 26px/1.4 Inter,sans-serif;color:#fff;border-top:2px solid rgba(255,255,255,.45);padding-top:24px;max-width:700px}
+.cta .bottom{border-color:rgba(255,255,255,.4);color:rgba(255,255,255,.9)}
+.cta .count{color:rgba(255,255,255,.8)}
+</style></head><body>
+<section class="slide cover-color rosa"><div class="deco"></div><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">01 / 06</span></div><div class="main"><div class="kicker">Nossa equipe</div><h1>Quem você encontra na Psin.</h1><div class="rule"></div><p class="body">Psicologia e psicanálise, com trajetórias e abordagens diferentes.</p><div class="tags"><span>Allice</span><span>Sandson</span><span>Emanuele</span><span>Suely</span></div></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe">Arraste →</span></div></section>
+<section class="slide perfil branco"><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">02 / 06</span></div><div class="ghost">AG</div><div class="main"><div class="portrait"><div class="placeholder "><b>Imagem a inserir</b><span>Retrato autorizado de Allice Gracyelli de Melo, enquadramento do peito para cima, fundo claro da clínica.</span></div></div><h2>Allice Gracyelli de Melo</h2><div class="credential">Psicóloga · CRP 01/15635 · Responsável técnica</div><div class="rule"></div><p class="body">Atua com crianças, famílias e mulheres. Seu trabalho inclui a Análise do Comportamento Aplicada (ABA) e a orientação parental.</p></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe">Arraste →</span></div></section>
+<section class="slide perfil azul"><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">03 / 06</span></div><div class="ghost">SB</div><div class="main"><div class="portrait"><div class="placeholder "><b>Imagem a inserir</b><span>Retrato autorizado de Sandson Barbosa Azevedo Junior, enquadramento do peito para cima, fundo claro da clínica.</span></div></div><h2>Sandson Barbosa Azevedo Junior</h2><div class="credential">Psicólogo · CRP 01/27483</div><div class="rule"></div><p class="body">Formado em Psicologia pela UDF, trabalha com a Terapia Cognitivo-Comportamental (TCC).</p></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe">Arraste →</span></div></section>
+<section class="slide perfil branco"><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">04 / 06</span></div><div class="ghost">EM</div><div class="main"><div class="portrait"><div class="placeholder "><b>Imagem a inserir</b><span>Retrato autorizado de Emanuele Martins Carlos de Souza, enquadramento do peito para cima, fundo claro da clínica.</span></div></div><h2>Emanuele Martins Carlos de Souza</h2><div class="credential">Psicóloga · CRP DF 29508</div><div class="rule"></div><p class="body">Atende adolescentes e adultos. Sua prática é orientada pela Gestalt-terapia, com atenção à experiência de cada pessoa.</p></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe">Arraste →</span></div></section>
+<section class="slide perfil rosa"><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">05 / 06</span></div><div class="ghost">SM</div><div class="main"><div class="portrait"><div class="placeholder "><b>Imagem a inserir</b><span>Retrato autorizado de Suely P. de Melo, enquadramento do peito para cima, fundo claro da clínica.</span></div></div><h2>Suely P. de Melo</h2><div class="credential">Psicanalista clínica</div><div class="rule"></div><p class="body">Com formação em Letras e Psicanálise, tem atuação voltada a mulheres e famílias.</p></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe">Arraste →</span></div></section>
+<section class="slide cta"><div class="top"><div class="brand"><span class="chip"><img src="../assets/logo.jpg" alt=""></span>Psin Clínica</div><span class="count">06 / 06</span></div><div class="main"><div class="logo-big"><img src="../assets/logo.jpg" alt=""></div><h2>Conheça cada trajetória.</h2><p class="body">No site, você encontra a apresentação completa dos profissionais. A recepção informa modalidades e horários.</p><div class="button">Link na bio</div></div><div class="bottom"><span>@psinclinicapsicologia</span><span class="swipe"></span></div></section>
+</body></html>
