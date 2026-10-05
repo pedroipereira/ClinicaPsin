@@ -1,0 +1,56 @@
+[
+  {
+    "width": 1440,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  },
+  {
+    "width": 1024,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  },
+  {
+    "width": 761,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  },
+  {
+    "width": 760,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  },
+  {
+    "width": 390,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  },
+  {
+    "width": 320,
+    "noOverflow": true,
+    "contactsBelow": true,
+    "layout": true,
+    "navigation": true,
+    "address": true,
+    "icons": true
+  }
+]

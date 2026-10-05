@@ -1,0 +1,19 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-04",
+  "note": "Imagens editoriais geradas por IA; pessoas fictícias.",
+  "images": [
+    {
+      "file": "blog-alimentacao.png",
+      "prompt": "Use case: photorealistic-natural. Editorial landscape photograph for a Brazilian psychology clinic blog about the relationship between emotions and eating, compassionate and non-stigmatizing. A calm domestic kitchen table with a ceramic plate of ordinary balanced food, drinking water, hands of an adult resting nearby and a soft folded napkin. No face required, no scales, no body measurements, no overflowing food, no shame cues. Authentic natural light, pale blue and subtle dusty pink accents, warm off-white background, documentary quality, quiet reflective feeling, realistic texture. Landscape 3:2, one single photo, no text, no logos, no collage."
+    },
+    {
+      "file": "blog-ferias.png",
+      "prompt": "Use case: photorealistic-natural. Editorial landscape photograph for a Brazilian psychology clinic blog about family holidays and maintaining care. A fictional Brazilian mother and father sitting on a picnic blanket in a leafy park with their school-age child, sharing a relaxed playful moment with a simple board game, candid unposed feel, natural faces, modest everyday clothing, no stock-photo exaggerated smiles. Soft daylight, gentle blue and blush accents, realistic textures, uncluttered composition. No clinical setting, no implication of patient treatment. Landscape 3:2 single photo, no text, logos or watermarks."
+    },
+    {
+      "file": "blog-filmes.png",
+      "prompt": "Use case: photorealistic-natural. Editorial landscape photograph for a Brazilian psychology clinic blog about talking to children about emotions after a film. A fictional Brazilian parent and school-age child on a comfortable living room sofa, child talking expressively and parent listening at eye level, relaxed evening mood, warm lamp and subtle blue ambient light, soft natural detail. No television content visible, no recognizable movie characters, no branded objects. Genuine candid domestic scene, not a therapy session. Landscape 3:2 single photograph, no text, no logos, no watermark."
+    }
+  ]
+}

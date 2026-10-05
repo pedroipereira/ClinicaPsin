@@ -1,0 +1,141 @@
+--- a/_memoria/empresa.md
++++ b/_memoria/empresa.md
+@@ -27,3 +27,11 @@
+ 
+ - Fonte dos dados: documentos de pesquisa em `../PsinClínicaIdentidade.docx`, `../PsinClínicaIdentidadeImplementação.docx` e `../PsinClínicaImplementação.docx` (3/out/2026). São informações públicas, ainda não validadas internamente.
+ - Abordagens são de cada profissional — não existe "método da Psin".
++
++## Materiais digitais existentes — 05/10/2026
++
++- Website local em `saidas/2026-10-03-reuniao/site/dist/index.html`, com apresentação, profissionais e perfis individuais, ambientes, atendimento, FAQ, avaliações demonstrativas, blog e contatos. Página própria de links em `site/dist/links.html`, na mesma entrega. Publicação e domínio público ainda não confirmados.
++- Instagram: três carrosséis institucionais com textos e artes aprovados pelo usuário em `marketing/posts/2026-10-05-carrosseis-estreia/`; mais três educativos com textos aprovados e artes para revisão em `marketing/posts/2026-10-05-conversas-com-as-familias/`. Nenhum post publicado nesta execução.
++- Há fotografias reais fornecidas pelo usuário, com versões aprimoradas por IA, da recepção, sala e apresentação da clínica. Retratos individuais autorizados da equipe continuam pendentes; o site usa iniciais. Não identificar a pessoa fotografada como integrante específico da equipe sem confirmação.
++- Avaliações no site são exemplos fictícios identificados. O botão de avaliação abre a busca da clínica no Google Maps; o link direto para avaliar continua pendente.
++
+--- a/_memoria/preferencias.md
++++ b/_memoria/preferencias.md
+@@ -7,7 +7,7 @@
+ 
+ Claro e direto com o cliente final (pacientes e responsáveis). Frases curtas, linguagem do dia a dia, sem termo técnico sem explicação. A base é acolhedora — é uma clínica de psicologia — mas o acolhimento vem da clareza, não de floreio.
+ 
+-*Provisório:* ainda não há texto real da marca. O posicionamento digital está sendo construído do zero. Quando houver uma legenda ou mensagem aprovada, usar como referência e refinar esta seção.
++Já há textos e legendas aprovados pelo usuário: `marketing/posts/2026-10-04-estreia-do-perfil/textos-para-revisao.md` e `marketing/posts/2026-10-05-conversas-com-as-familias/textos-para-revisao.md`. Usar esses materiais e os artigos do blog como referência de voz. A aprovação editorial do usuário não substitui a validação clínica da responsável técnica.
+ 
+ ## O que evitar
+ 
+@@ -24,3 +24,11 @@
+ ## Preferências adicionais
+ 
+ - Termo para quem procura atendimento (paciente, pessoa atendida…): *pendente*
++
++## Preferências confirmadas no projeto
++
++- Conteúdo educativo dirigido às famílias, especialmente pais e responsáveis, com situações da infância e adolescência; filmes e outras referências do cotidiano podem abrir a conversa.
++- Desenvolver uma explicação contínua, com começo, desenvolvimento e encerramento. No carrossel, distribuir essa construção em parágrafos curtos, com uma ideia por slide; evitar fragmentação excessiva em tópicos e linguagem genérica.
++- Usar posts antigos, referências de websites e o pack de carrosséis para entender estrutura e comunicação. Preservar as cores e a identidade da Psin.
++- Priorizar sofisticação, legibilidade, cores suaves e ajustes graduais. Na página de links, botões compactos, arredondados, uniformes e um por linha.
++
+--- a/_memoria/estrategia.md
++++ b/_memoria/estrategia.md
+@@ -6,19 +6,19 @@
+ 
+ ## Fase
+ 
+-Início do posicionamento digital. Hoje a Psin praticamente não tem presença digital própria; o posicionamento vai ser construído do zero.
++Presença digital em preparação para apresentação e publicação. O website institucional e a página de links já estão implementados localmente. Há seis carrosséis produzidos; a publicação externa ainda não foi realizada nesta execução.
+ 
+ ## Prioridade principal
+ 
+-**Gargalo atual:** falta de presença digital.
++**Gargalo atual:** concluir a revisão das entregas locais, confirmar os dados com a clínica e definir a publicação dos canais.
+ 
+-**Pra tirar das costas:** montagem de posts. Candidata a virar skill via `/mapear-rotinas` (a skill `/carrossel` já existe e é um bom ponto de partida).
++**Produção de posts:** fluxo de texto aprovado → HTML → PNG e legenda já utilizado com a skill `/carrossel`. Três carrosséis institucionais aprovados (18 slides) e três educativos produzidos (21 slides), estes com textos aprovados e artes aguardando revisão.
+ 
+ **Próximas prioridades:**
+ 1. Definir as pendências de base: frase de oferta, público prioritário, equipe ativa e nome oficial
+ 2. Padronizar os canais (Instagram, Facebook, Google, Doctoralia, Linktree): mesmo nome, contatos, endereço e bio
+-3. Montar uma rotina de conteúdo para o Instagram com produção de posts repetível
+-4. Site institucional (etapa 1 do plano de implementação)
++3. Revisar as artes educativas e organizar a sequência de publicação dos seis carrosséis; manter a produção educativa no estilo do blog
++4. Concluir a validação editorial do site já implementado e definir hospedagem, domínio e destino público da página de links
+ 
+ ## O que pode esperar
+ 
+@@ -28,3 +28,11 @@
+ ## Contexto com prazo
+ 
+ - Reunião de definição de escopo com a clínica (documentos de 3/out/2026) — validar as pendências acima
++
++## Entregas e pendências operacionais — 05/10/2026
++
++- Website, página de links e roteiros da reunião: `saidas/2026-10-03-reuniao/`. O mapa visual está em `roteiro-reuniao.excalidraw`.
++- Manter como pendentes os dados profissionais, conteúdo clínico, retratos autorizados e link direto de avaliação do Google, conforme `saidas/2026-10-03-reuniao/REVISAO-EDITORIAL.md`.
++- Snapshot anterior aos ajustes finais salvo no commit local `41e9d09` e em `backups/website-antes-ajustes-finais-2026-10-04-132411/website.zip`. As alterações posteriores não estão cobertas por esse commit.
++- O usuário pediu um novo repositório. O remoto atual continua sendo o projeto-base `mazzeoia/MazyOS`; criação e envio ao novo repositório seguem pendentes, sem publicação externa realizada.
++
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -121,14 +121,16 @@
+ ## O que é esse workspace
+ 
+ Operação digital da Psin Clínica, uma clínica de psicologia em Taguatinga Sul (DF).
+-O foco agora é construir do zero a presença e o posicionamento digital.
++O foco atual é revisar e preparar para publicação a presença digital já implementada localmente: website, página de links e conteúdo para Instagram.
+ 
+ **Estrutura de pastas:**
+ - `_memoria/` — quem é a clínica, como falamos, foco atual
+ - `identidade/` — marca aplicada em tudo que o sistema gera
+ - `marketing/` — posts, carrosséis, calendário de conteúdo, campanhas
+-- `saidas/` — documentos pontuais
+-- `dados/` — arquivos a analisar
++- `saidas/` — entregas pontuais; `2026-10-03-reuniao/` reúne website, página de links, roteiros e verificações
++- `scripts/site/` — geradores do website e dos carrosséis
++- `backups/` — snapshots locais com manifesto de integridade
++- `dados/` — arquivos a analisar e referências de conteúdo/estrutura
+ - `../*.docx` — pesquisas de identidade e plano de implementação (3/out/2026)
+ 
+ ## Sobre a empresa
+@@ -172,3 +174,10 @@
+ - [ ] WhatsApp
+ 
+ *(Marcar conforme for instalando os MCPs)*
++
++## Manutenção das entregas locais
++
++- Website: `saidas/2026-10-03-reuniao/site/dist/`. O gerador do conteúdo é `scripts/site/revisar_apresentacao.py`; estilos e interações também possuem arquivos próprios no `dist`. Verificar o gerador antes de editar somente um HTML gerado, para evitar perda de mudanças na próxima execução.
++- Carrosséis: `scripts/site/gerar_carrosseis_estreia.py` e `scripts/site/gerar_carrosseis_educativos.py`; cada entrega contém HTML, PNGs, legendas, textos alternativos, galeria e scripts de renderização.
++- Registrar separadamente aprovação dos textos, aprovação das artes, validação clínica e publicação. A existência de arquivos ou links para redes sociais não comprova publicação ou integração com essas plataformas.
++
+--- a/identidade/design-guide.md
++++ b/identidade/design-guide.md
+@@ -24,11 +24,11 @@
+ 
+ ## Tipografia
+ 
+-- **Títulos e destaques:** *a definir* (sem fonte oficial)
++- **Títulos e destaques:** Georgia, serif, como padrão digital aplicado no website e nos carrosséis institucionais aprovados; tipografia oficial da marca ainda não definida.
+ 
+-- **Corpo, subtítulos e botões:** *a definir*
++- **Corpo, subtítulos e botões:** Arial, Helvetica, sans-serif, como padrão digital atual.
+ 
+-- **Peso do título:** *a definir*
++- **Peso do título:** 400 no padrão editorial atual; variar tamanho conforme a hierarquia.
+ 
+ ---
+ 
+@@ -65,4 +65,13 @@
+ 
+ ## Observações adicionais
+ 
+-Pendente: arquivo original/vetorial do logo, paleta e fontes oficiais, autoria e direitos da marca, fotos reais da equipe e dos espaços.
++Pendente: arquivo original/vetorial do logo, paleta e fontes oficiais, autoria e direitos da marca e retratos individuais autorizados da equipe. Fotografias reais dos espaços já foram fornecidas e possuem versões aprimoradas por IA; documentação em `saidas/2026-10-03-reuniao/site/dist/images/tratamento-fotos.md`.
++
++## Aplicação digital atual — 05/10/2026
++
++- Carrosséis: 1080 × 1350 (4:5), branco `#FFFFFF`, azul claro `#EAF2F8`, rosa claro `#F8E7EF` e texto `#4F4D4E`. Esse padrão foi aprovado no conjunto institucional; as artes educativas seguem em revisão. As cores continuam sendo referências para tela, sem caráter de manual oficial.
++- Logo preservado, com 76 px no cabeçalho e até 100 px nos encerramentos dos carrosséis. Contador no alto à direita, identificação no rodapé e espaços generosos de leitura. Títulos e parágrafos variam de tamanho conforme a composição.
++- Website: manter botões cinzas preenchidos e botões de interação rosa com fundo branco e borda neutra em repouso; preenchimento rosa `#E783AA` em hover, foco e toque. Evitar transformar todos os botões em rosas.
++- Hero: preservar a composição com parede livre à esquerda e marca/objetos à direita, começando no topo sob o menu transparente. Azul e rosa da fotografia suavizados para combinar com o site.
++- Ambientes: fotografias inteiras em galeria simultânea e sem legendas visuais. Página de links: botões arredondados, compactos, de tamanho uniforme e um por linha.
++

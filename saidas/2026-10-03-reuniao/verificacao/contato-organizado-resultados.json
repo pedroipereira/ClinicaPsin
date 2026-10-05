@@ -1,0 +1,57 @@
+[
+  {
+    "width": 1440,
+    "noOverflow": true,
+    "columns": true,
+    "navBelow": true,
+    "labels": [
+      "Onde estamos",
+      "Modalidades de atendimento",
+      "De quem cuidamos"
+    ]
+  },
+  {
+    "width": 1024,
+    "noOverflow": true,
+    "columns": true,
+    "navBelow": true,
+    "labels": [
+      "Onde estamos",
+      "Modalidades de atendimento",
+      "De quem cuidamos"
+    ]
+  },
+  {
+    "width": 760,
+    "noOverflow": true,
+    "columns": true,
+    "navBelow": true,
+    "labels": [
+      "Onde estamos",
+      "Modalidades de atendimento",
+      "De quem cuidamos"
+    ]
+  },
+  {
+    "width": 390,
+    "noOverflow": true,
+    "columns": true,
+    "navBelow": true,
+    "labels": [
+      "Onde estamos",
+      "Modalidades de atendimento",
+      "De quem cuidamos"
+    ]
+  },
+  {
+    "width": 320,
+    "noOverflow": true,
+    "columns": true,
+    "navBelow": true,
+    "labels": [
+      "Onde estamos",
+      "Modalidades de atendimento",
+      "De quem cuidamos"
+    ]
+  }
+]

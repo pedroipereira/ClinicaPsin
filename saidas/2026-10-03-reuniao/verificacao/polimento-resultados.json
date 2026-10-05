@@ -1,0 +1,50 @@
+[
+  {
+    "name": "one-contact-no-footer",
+    "pass": true
+  },
+  {
+    "name": "four-accessible-icon-links",
+    "pass": true
+  },
+  {
+    "name": "neutral-pink-button-border",
+    "pass": true
+  },
+  {
+    "name": "hover-opens",
+    "pass": true
+  },
+  {
+    "name": "no-question-box",
+    "pass": true
+  },
+  {
+    "name": "slow-small-arrow-rotation",
+    "pass": true
+  },
+  {
+    "name": "hover-leave-closes",
+    "pass": true
+  },
+  {
+    "name": "keyboard-opens",
+    "pass": true
+  },
+  {
+    "name": "escape-closes",
+    "pass": true
+  },
+  {
+    "name": "article-cta-grey",
+    "pass": true
+  },
+  {
+    "name": "touch-open",
+    "pass": true
+  },
+  {
+    "name": "touch-close",
+    "pass": true
+  }
+]
