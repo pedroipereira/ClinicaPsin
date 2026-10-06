@@ -1,16 +1,23 @@
 .page {
+  position: relative;
+  isolation: isolate;
   width: min(100%, 528px);
   min-height: 100vh;
   margin: auto;
   padding: 36px 24px 30px;
   color: #4f4d4e;
   font: 14px/1.6 Arial, Helvetica, sans-serif;
+}
+
+.page::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
   background:
-    radial-gradient(ellipse at 10% 15%, #e9f1f8 0, transparent 55%),
-    radial-gradient(ellipse at 95% 70%, #f9edf2 0, transparent 55%),
+    radial-gradient(ellipse at 8% 12%, #e9f1f8 0, transparent 58%),
+    radial-gradient(ellipse at 92% 76%, #f9edf2 0, transparent 58%),
     #faf9fa;
-  box-shadow: 0 0 0 100vmax #faf9fa;
-  clip-path: inset(0 -100vmax);
+  content: "";
 }
 
 .profile { text-align: center; }
