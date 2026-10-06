@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     {source:"/institutional/profissionais/:slug.html",destination:"/profissionais/:slug",permanent:true},
     {source:"/institutional/blog/index.html",destination:"/blog",permanent:true},
     {source:"/institutional/blog/:slug.html",destination:"/blog/:slug",permanent:true},
+    {source:"/institutional/links.html",destination:"/links",permanent:true},
+    {source:"/links.html",destination:"/links",permanent:true},
   ]},
 };
 
